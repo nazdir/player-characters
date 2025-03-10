@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 12
   },
-  "hitPoints": { "base": 38, "current": 38, "temp": 0 },
+  "hitPoints": { "base": 38, "current": 38, "temp": 8 },
   "traits": {
     "personalityTraits": "I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.\nI’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.",
     "ideals": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
@@ -56,11 +56,6 @@
     "Bonus: Wisdom Score",
     "Bonus: Constitution Score",
     "Bonus: Choose an Ability Score",
-    "Bonus: Ability Checks",
-    "Bonus: Saving Throws",
-    "Bonus: Melee Attacks",
-    "Bonus: Ranged Attacks",
-    "Bonus: Spell Attacks",
     "Damage: Slashing",
     "Damage: Piercing",
     "Expertise: Perception",
@@ -79,6 +74,7 @@
     "Proficiency: Survival",
     "Resistance: Necrotic",
     "Resistance: Radiant",
+    "Resistance: All",
     "Set: Subclass",
     "Set Base: Darkvision"
   ],
@@ -92,6 +88,7 @@
     "Clothes, Common",
     "Mace",
     "Potion of Healing",
+    "Potion of Invulnerability",
     "Rations (1 day)",
     "Tinderbox",
     "Vestments",

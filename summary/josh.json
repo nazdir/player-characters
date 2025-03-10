@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 30, "current": 30, "temp": 0 },
+  "hitPoints": { "base": 30, "current": 30, "temp": 13 },
   "traits": {
     "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",
     "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",
@@ -61,11 +61,6 @@
     "Bonus: Dexterity Score",
     "Bonus: Wisdom Score",
     "Bonus: Choose an Ability Score",
-    "Bonus: Ability Checks",
-    "Bonus: Saving Throws",
-    "Bonus: Melee Attacks",
-    "Bonus: Ranged Attacks",
-    "Bonus: Spell Attacks",
     "Bonus: Spell Attack Range Multiplier",
     "Proficiency: Sleight of Hand",
     "Proficiency: Deception",
@@ -82,6 +77,7 @@
     "Proficiency: Survival",
     "Proficiency: Birdpipes",
     "Resistance: Psychic",
+    "Resistance: All",
     "Sense: Darkvision",
     "Set: Subclass"
   ],
@@ -95,6 +91,7 @@
     "Clothes, Traveler's",
     "Lantern, Hooded",
     "Mess Kit",
+    "Potion of Invulnerability",
     "Rations (1 day)",
     "Rope, Hempen (50 feet)",
     "Scroll: null",
