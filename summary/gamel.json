@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 12
   },
-  "hitPoints": { "base": 38, "current": 38, "temp": 8 },
+  "hitPoints": { "base": 38, "current": 38, "temp": 0 },
   "traits": {
     "personalityTraits": "I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.\nI’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.",
     "ideals": "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",

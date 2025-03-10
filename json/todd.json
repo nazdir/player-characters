@@ -704,7 +704,7 @@
         "weightMultiplier": 1,
         "capacity": null,
         "capacityWeight": 0,
-        "type": "Shield",
+        "type": "",
         "description": "<p>Shields require the Utilize action to Don or Doff. You gain the Armor Class benefit of a Shield only if you have training with it.</p>",
         "canAttune": false,
         "attunementDescription": null,
@@ -954,7 +954,7 @@
         "weightMultiplier": 1,
         "capacity": null,
         "capacityWeight": 0,
-        "type": "",
+        "type": "Heavy Armor",
         "description": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>",
         "canAttune": false,
         "attunementDescription": null,
@@ -1838,7 +1838,7 @@
         "isPack": false,
         "tags": ["Healing", "Combat", "Consumable"],
         "grantedModifiers": [],
-        "subType": "Potion",
+        "subType": null,
         "isConsumable": true,
         "weaponBehaviors": [],
         "baseItemId": null,
@@ -2477,14 +2477,6 @@
             "description": "<p><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Dice: </span></strong>1d10 per paladin level<br /><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at 1st Level: </span></strong>10 + your Constitution modifier<br /><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at Higher Levels: </span></strong>1d10 (or 6) + your Constitution modifier per paladin level after 1st</p>",
             "requiredLevel": 1,
             "displayOrder": 1
-          },
-          {
-            "id": 9961421,
-            "name": "Equipment",
-            "prerequisite": null,
-            "description": "<p>You start with the following equipment, in addition to the equipment granted by your background:</p>\r\n<ul>\r\n<li>(a) a martial weapon and a shield or (b) two martial weapons</li>\r\n<li>(a) five javelins or (b) any simple melee weapon</li>\r\n<li>(a) a priest’s pack or (b) an explorer’s pack</li>\r\n<li>Chain mail and a holy symbol</li>\r\n</ul>",
-            "requiredLevel": 1,
-            "displayOrder": 3
           }
         ],
         "hitDice": 10,
@@ -2498,7 +2490,7 @@
         "canCastSpells": true,
         "knowsAllSpells": true,
         "spellPrepareType": 2,
-        "spellCastingLearningStyle": null,
+        "spellCastingLearningStyle": 1,
         "spellContainerName": null,
         "sourcePageNumber": 82,
         "subclassDefinition": null,
@@ -2801,14 +2793,6 @@
             "description": "<p><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Dice: </span></strong>1d10 per paladin level<br /><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at 1st Level: </span></strong>10 + your Constitution modifier<br /><strong><span class=\"Serif-Character-Style_Bold-Serif\">Hit Points at Higher Levels: </span></strong>1d10 (or 6) + your Constitution modifier per paladin level after 1st</p>",
             "requiredLevel": 1,
             "displayOrder": 1
-          },
-          {
-            "id": 9961421,
-            "name": "Equipment",
-            "prerequisite": null,
-            "description": "<p>You start with the following equipment, in addition to the equipment granted by your background:</p>\r\n<ul>\r\n<li>(a) a martial weapon and a shield or (b) two martial weapons</li>\r\n<li>(a) five javelins or (b) any simple melee weapon</li>\r\n<li>(a) a priest’s pack or (b) an explorer’s pack</li>\r\n<li>Chain mail and a holy symbol</li>\r\n</ul>",
-            "requiredLevel": 1,
-            "displayOrder": 3
           }
         ],
         "hitDice": 10,
@@ -3866,7 +3850,7 @@
     { "level": 4, "used": 0, "available": 0 },
     { "level": 5, "used": 0, "available": 0 }
   ],
-  "activeSourceCategories": [1, 23, 24, 25, 26, 27, 28],
+  "activeSourceCategories": [1, 23, 24, 25, 26, 27, 28, 31],
   "spells": {
     "race": [
       {
@@ -6790,7 +6774,7 @@
       "affectedClassFeatureDefinitionKey": null
     }
   ],
-  "dateModified": "2024-11-02T19:05:26.702Z",
+  "dateModified": "2025-03-10T15:55:09.167169Z",
   "canEdit": false,
   "status": 0,
   "statusSlug": null,
