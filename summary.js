@@ -32,7 +32,7 @@ const deepSort = (obj) => deepSorting(obj)
 const playerCharacterIds = {
   corey: 71560080,
   gamel: 71562753,
-  todd: 71559602,
+  // todd: 71559602,
   josh: 72209867,
   jen: 71942288,
   dummy: 72798822,
@@ -213,4 +213,4 @@ const summarize = async (player) => {
   fs.writeFileSync(`summary/${player}.json`, JSON.stringify(final))
 }
 
-;['josh', 'corey', 'todd', 'gamel', 'jen', 'dummy'].forEach((player) => summarize(player))
+;['josh', 'corey', 'gamel', 'jen', 'dummy'].forEach((player) => summarize(player))
