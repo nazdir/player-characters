@@ -52,7 +52,7 @@
   "height": "6'",
   "weight": 200,
   "inspiration": false,
-  "baseHitPoints": 38,
+  "baseHitPoints": 43,
   "bonusHitPoints": null,
   "overrideHitPoints": null,
   "removedHitPoints": 0,
@@ -817,7 +817,7 @@
         "weightMultiplier": 1,
         "capacity": null,
         "capacityWeight": 0,
-        "type": "Heavy Armor",
+        "type": "",
         "description": "<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>",
         "canAttune": false,
         "attunementDescription": null,
@@ -1709,7 +1709,7 @@
         "weightMultiplier": 1,
         "capacity": null,
         "capacityWeight": 0,
-        "type": "",
+        "type": "Shield",
         "description": "<p>Shields require the Utilize action to Don or Doff. You gain the Armor Class benefit of a Shield only if you have training with it.</p>",
         "canAttune": false,
         "attunementDescription": null,
@@ -2439,7 +2439,7 @@
     {
       "id": 95770444,
       "entityTypeId": 1446578651,
-      "level": 7,
+      "level": 8,
       "isStartingClass": true,
       "hitDiceUsed": 0,
       "definitionId": 0,
@@ -3085,7 +3085,19 @@
             "entityID": "2996570",
             "grantedFeats": []
           },
-          "levelScale": null
+          "levelScale": {
+            "id": 385424,
+            "level": 8,
+            "description": "1d8 radiant damage",
+            "dice": {
+              "diceCount": 1,
+              "diceValue": 8,
+              "diceMultiplier": null,
+              "fixedValue": null,
+              "diceString": "1d8"
+            },
+            "fixedValue": null
+          }
         },
         {
           "definition": {
@@ -3347,9 +3359,9 @@
             "grantedFeats": []
           },
           "levelScale": {
-            "id": 11263,
-            "level": 5,
-            "description": "CR 1/2 or Lower",
+            "id": 11264,
+            "level": 8,
+            "description": "CR 1 or Lower",
             "dice": null,
             "fixedValue": 1
           }
@@ -3667,7 +3679,7 @@
     { "level": 4, "used": 0, "available": 0 },
     { "level": 5, "used": 0, "available": 0 }
   ],
-  "activeSourceCategories": [1, 23, 24, 25, 26, 27, 28, 31],
+  "activeSourceCategories": [1, 23, 24, 25, 26, 27, 28, 29, 31],
   "spells": {
     "race": [
       {
@@ -3802,6 +3814,23 @@
         "type": 1,
         "subType": null,
         "optionValue": 696,
+        "label": null,
+        "isOptional": false,
+        "isInfinite": false,
+        "defaultSubtypes": [],
+        "displayOrder": null,
+        "options": [],
+        "optionIds": [695, 696],
+        "tagConstraints": []
+      },
+      {
+        "componentId": 115,
+        "componentTypeId": 12168134,
+        "id": "1-115",
+        "parentChoiceId": null,
+        "type": 1,
+        "subType": null,
+        "optionValue": null,
         "label": null,
         "isOptional": false,
         "isInfinite": false,
@@ -4641,6 +4670,50 @@
         "ammunition": null
       },
       {
+        "componentId": 3021266,
+        "componentTypeId": 12168134,
+        "id": "2426258",
+        "entityTypeId": "222216831",
+        "limitedUse": null,
+        "name": "Blessed Strikes",
+        "description": "<p><em>8th-level cleric feature, which replaces the Divine Strike or Potent Spellcasting feature</em><br />You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can&rsquo;t use this feature again until the start of your next turn.</p>",
+        "snippet": "When a creature takes damage from one of your cantrips or weapon attacks, you can also deal <strong>1d8</strong> radiant damage to that creature. Once you deal this damage, you can’t use this feature again until the start of your next turn.",
+        "abilityModifierStatId": null,
+        "onMissDescription": "",
+        "saveFailDescription": "",
+        "saveSuccessDescription": "",
+        "saveStatId": null,
+        "fixedSaveDc": null,
+        "attackTypeRange": null,
+        "actionType": 3,
+        "attackSubtype": null,
+        "dice": {
+          "diceCount": 1,
+          "diceValue": 8,
+          "diceMultiplier": null,
+          "fixedValue": null,
+          "diceString": "1d8"
+        },
+        "value": null,
+        "damageTypeId": 12,
+        "isMartialArts": false,
+        "isProficient": false,
+        "spellRangeType": null,
+        "displayAsAttack": true,
+        "range": {
+          "range": null,
+          "longRange": null,
+          "aoeType": null,
+          "aoeSize": null,
+          "hasAoeSpecialDescription": false,
+          "minimumRange": null
+        },
+        "activation": { "activationTime": null, "activationType": 8 },
+        "numberOfTargets": null,
+        "fixedToHit": null,
+        "ammunition": null
+      },
+      {
         "componentId": 112,
         "componentTypeId": 12168134,
         "id": "5965968",
@@ -5073,6 +5146,30 @@
       },
       {
         "fixedValue": 1,
+        "id": "1687",
+        "entityId": null,
+        "entityTypeId": null,
+        "type": "bonus",
+        "subType": "choose-an-ability-score",
+        "dice": null,
+        "restriction": null,
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Bonus",
+        "friendlySubtypeName": "Choose an Ability Score",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": 1,
+        "availableToMulticlass": true,
+        "modifierTypeId": 1,
+        "modifierSubTypeId": 695,
+        "componentId": 115,
+        "componentTypeId": 12168134,
+        "tagConstraints": []
+      },
+      {
+        "fixedValue": 1,
         "id": "1799",
         "entityId": null,
         "entityTypeId": null,
@@ -5092,6 +5189,30 @@
         "modifierTypeId": 1,
         "modifierSubTypeId": 695,
         "componentId": 111,
+        "componentTypeId": 12168134,
+        "tagConstraints": []
+      },
+      {
+        "fixedValue": 1,
+        "id": "1800",
+        "entityId": null,
+        "entityTypeId": null,
+        "type": "bonus",
+        "subType": "choose-an-ability-score",
+        "dice": null,
+        "restriction": null,
+        "statId": null,
+        "requiresAttunement": false,
+        "duration": null,
+        "friendlyTypeName": "Bonus",
+        "friendlySubtypeName": "Choose an Ability Score",
+        "isGranted": true,
+        "bonusTypes": [],
+        "value": 1,
+        "availableToMulticlass": true,
+        "modifierTypeId": 1,
+        "modifierSubTypeId": 695,
+        "componentId": 115,
         "componentTypeId": 12168134,
         "tagConstraints": []
       },
@@ -7925,17 +8046,6 @@
     "dmUsername": "Nazdir",
     "characters": [
       {
-        "userId": 107215909,
-        "username": "jotynas_saloris_nekrojinn",
-        "characterId": 71559602,
-        "characterName": "Ruffle Manfaers",
-        "characterUrl": "/profile/jotynas_saloris_nekrojinn/characters/71559602",
-        "avatarUrl": "https://www.dndbeyond.com/avatars/29053/75/1581111423-71559602.jpeg?width=150&height=150&fit=crop&quality=95&auto=webp",
-        "privacyType": 3,
-        "campaignId": null,
-        "isAssigned": true
-      },
-      {
         "userId": 106981478,
         "username": "Yer0c",
         "characterId": 71560080,
@@ -8022,7 +8132,7 @@
       "affectedClassFeatureDefinitionKey": "class-feature:2996570"
     }
   ],
-  "dateModified": "2025-03-10T15:55:04.649906Z",
+  "dateModified": "2025-03-21T22:47:03.491Z",
   "canEdit": false,
   "status": 0,
   "statusSlug": null,

@@ -1,6 +1,6 @@
 {
   "name": "Tenebrae",
-  "classes": ["Level 7 Sorcerer | Aberrant Mind"],
+  "classes": ["Level 8 Sorcerer | Aberrant Mind"],
   "stats": {
     "strength": 8,
     "dexterity": 12,
@@ -9,7 +9,7 @@
     "wisdom": 10,
     "charisma": 15
   },
-  "hitPoints": { "base": 30, "current": 30, "temp": 0 },
+  "hitPoints": { "base": 34, "current": 34, "temp": 0 },
   "traits": {
     "personalityTraits": "I feel far more comfortable around animals than people.\nI have a lesson for every situation, drawn from observing nature.",
     "ideals": "Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)",

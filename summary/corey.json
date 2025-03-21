@@ -1,6 +1,6 @@
 {
   "name": "Jassin Highwind",
-  "classes": ["Level 7 Monk | Way of the Astral Self"],
+  "classes": ["Level 8 Monk | Way of the Astral Self"],
   "stats": {
     "strength": 11,
     "dexterity": 15,
@@ -9,7 +9,7 @@
     "wisdom": 15,
     "charisma": 9
   },
-  "hitPoints": { "base": 38, "current": 38, "temp": 0 },
+  "hitPoints": { "base": 43, "current": 43, "temp": 0 },
   "traits": {
     "personalityTraits": "I feel tremendous empathy for all who suffer.",
     "ideals": "Greater Good. My gifts are meant to be shared with all, not used for my own benefit. (Good)",

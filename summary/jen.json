@@ -1,6 +1,6 @@
 {
   "name": "Vercey Whispermouse",
-  "classes": ["Level 7 Bard | College of Spirits"],
+  "classes": ["Level 8 Bard | College of Spirits"],
   "stats": {
     "strength": 8,
     "dexterity": 14,
@@ -9,7 +9,7 @@
     "wisdom": 12,
     "charisma": 15
   },
-  "hitPoints": { "base": 38, "current": 38, "temp": 0 },
+  "hitPoints": { "base": 43, "current": 43, "temp": 0 },
   "traits": {
     "personalityTraits": "I don’t run from evil. Evil runs from me.\nI spend money freely and live life to the fullest, knowing that tomorrow I might die.",
     "ideals": "I kill monsters to make the world a safer place, and to exorcise my own demons. (Good)",
